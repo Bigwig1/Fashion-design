@@ -1,0 +1,19 @@
+@use "../color" as*;
+
+header{
+    background-image: url('../../assets/images/menFashionbg1.jpg');
+    // background-repeat: no-repeat;
+    background-size: contain;
+    height: 600PX;
+    // margin-top: 58px;
+    top: -40px;
+}
+.navbar{
+    // background-color: $bgColor;
+    position: sticky;
+    top: 20px;
+    .form{
+        float: right;
+        margin-left: 50%;
+    }
+}

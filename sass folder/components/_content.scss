@@ -1,0 +1,15 @@
+@use "../color" as*;
+
+container2{
+    height: min-content;
+}
+.image01{
+    margin: auto;
+    width: 30vw;
+    transform: rotate(20deg);
+}
+.image02{
+    margin: auto;
+    width: 25vw;
+    transform: rotate(-10deg);
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../../assets/images/menFashionbg1.jpg");
+  background-size: contain;
+  height: 600PX;
+  top: -40px;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+.navbar .form {
+  float: right;
+  margin-left: 50%;
+}
+
+.mask {
+  border-radius: 30px 30px 0px 30px;
+  background-color: rgba(100, 97, 79, 0.5);
+  height: 300px;
+}
+
+container2 {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
+
+.image01 {
+  margin: auto;
+  width: 30vw;
+  transform: rotate(20deg);
+}
+
+.image02 {
+  margin: auto;
+  width: 25vw;
+  transform: rotate(-10deg);
+}/*# sourceMappingURL=style.css.map */
